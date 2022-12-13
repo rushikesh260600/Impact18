@@ -15,19 +15,19 @@ public class Order {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter product Id: ");
 		id= sc.nextInt();
-		
+
 		System.out.println("Enter product type");
 		productType  = sc.next();
-		
+
 		System.out.println("Enter product name: ");
 		productName  = sc.next();
-		
-		System.out.println("Enter product price: ");
+
+		System.out.println("Enter product price: ");                                            
 		productPrice = sc.nextFloat();
-		
+
 		System.out.println("Enter product desc: ");
 		desc = sc.next();
-		
+
 		p1.setId(id);
 		p1.setProductType(productType);
 		p1.setProductName(productName);

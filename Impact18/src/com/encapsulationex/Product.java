@@ -1,16 +1,16 @@
 package com.encapsulationex;
 
 public class Product {
-	
+
 	private int id;
 	private String productType;
 	private String productName;
 	private float productPrice;
 	private String desc;
-	
+
 	public Product()
 	{
-		
+
 	}
 
 	public int getId() {
@@ -52,9 +52,9 @@ public class Product {
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 }
